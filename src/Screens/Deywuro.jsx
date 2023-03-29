@@ -1,6 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import deywuroLogo from "../assets/deywuro_too.png";
+import deywuroLogo from "../../public/deywuro_too.png";
 import loginLogo from "../assets/loginback03.jpg";
 
 function Deywuro() {
@@ -17,8 +17,8 @@ function Deywuro() {
       </div> */}
 
       <div
-        className=" bg-cover relative "
-        style={{ backgroundImage: `url(${loginLogo})` }}
+        className=" bg-cover relative bg-[url('../assets/loginback03.jpg')]"
+        // style={{ backgroundImage: `url(${loginLogo})` }}
       >
         <div className=" bg-cover absolute pl-11 h-1/6 w-2/12 ">
           <img alt="hero" src={deywuroLogo} />
