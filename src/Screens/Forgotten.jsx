@@ -8,6 +8,9 @@ function Forgotten() {
       className=" bg-cover "
       style={{ backgroundImage: `url(${loginLogo})` }}
     >
+      <div className=" bg-cover absolute pl-11 h-1/6 w-2/12 ">
+        <img alt="hero" src={deywuroLogo} />
+      </div>
       <div
         className="form-wrapper 
      min-h-screen
